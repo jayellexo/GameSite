@@ -1,0 +1,90 @@
+/*
+#top {
+    margin: 8% 20% 0% 20%;
+    height: 70px;
+    background-color: rgb(150, 0, 0); 
+    font-size: 50px; 
+    text-align: center;
+    font-family: impact;
+    border-style: none;
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    border-radius: 5px;
+    color: white;
+}
+*/
+@font-face {
+  font-family: 'White Elephant';
+  src: url('/fonts/White Elephant.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/White Elephant.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/White Elephant.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/White Elephant.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/fonts/White Elephant.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/White Elephant.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Genome-Thin';
+  src: url('/fonts/Genome-Thin.otf')  format('truetype'), /* Safari, Android, iOS */
+      
+}
+
+@font-face {
+  font-family: 'Street Light';
+  src: url('/fonts/Strelght.ttf')  format('truetype'), /* Safari, Android, iOS */
+      
+}
+
+.navbar {
+    font-size: 30px;
+    font-family: 'White Elephant', Fallback, Impact;
+}
+
+.navbar-brand {
+    font-size: 35px;
+}
+
+#banner {
+    padding: 0px 0px 0px 0px;
+
+}
+#navbar a {
+    padding: 0px 5px 0px 5px;
+}
+
+#main { 
+    margin: 0px;
+    font-family: impact;
+    padding: 0px;
+}
+
+.writeup {
+    padding: 0px 5px 0px 0px;
+    margin: 10px;
+}
+
+.headers {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'White Elephant', Fallback, Impact;
+}
+
+#footer {
+    text-align: center;
+    background-color: #75c2c4
+}
+
+.updates {
+ font-family: 'Genome-Thin';
+}
+
+html { 
+  background: url(/images/paper_by_francy84.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
