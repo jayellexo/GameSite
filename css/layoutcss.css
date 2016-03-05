@@ -13,6 +13,7 @@
     color: white;
 }
 */
+
 @font-face {
   font-family: 'White Elephant';
   src: url('/fonts/White Elephant.eot'); /* IE9 Compat Modes */
@@ -24,15 +25,17 @@
 }
 
 @font-face {
-  font-family: 'Genome-Thin';
-  src: url('/fonts/Genome-Thin.otf')  format('truetype'), /* Safari, Android, iOS */
-      
+  font-family: 'GenomeThin';
+  src: url('/fonts/Genome-Thin.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/Genome-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/Genome-Thin.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/Genome-Thin.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/fonts/Genome-Thin.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/Genome-Thin.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
-@font-face {
-  font-family: 'Street Light';
-  src: url('/fonts/Strelght.ttf')  format('truetype'), /* Safari, Android, iOS */
-      
+.background {
+    background-color: #cecbb7;
 }
 
 .navbar {
@@ -48,9 +51,6 @@
     padding: 0px 0px 0px 0px;
 
 }
-#navbar a {
-    padding: 0px 5px 0px 5px;
-}
 
 #main { 
     margin: 0px;
@@ -59,8 +59,8 @@
 }
 
 .writeup {
-    padding: 0px 5px 0px 0px;
-    margin: 10px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
 }
 
 .headers {
@@ -72,19 +72,27 @@
 
 #footer {
     text-align: center;
-    background-color: #75c2c4
+    background-color: #75c2c4;
+    font-size: 18px;
+    font-family: 'White Elephant', Fallback, Impact;
 }
 
 .updates {
- font-family: 'Genome-Thin';
+    font-family:'GenomeThin';
+    background-color: #afafaf;
 }
 
+.update-headers {
+    font-weight: bold;
+}
+
+/*
 html { 
-  background: url(/images/paper_by_francy84.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+      background: url(/images/paper_by_francy84.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
 }
 
-
+*/
