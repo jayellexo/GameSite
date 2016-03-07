@@ -1,66 +1,36 @@
-/*
-#top {
-    margin: 8% 20% 0% 20%;
-    height: 70px;
-    background-color: rgb(150, 0, 0); 
-    font-size: 50px; 
-    text-align: center;
-    font-family: impact;
-    border-style: none;
-    position: relative;
-    padding: 0px 0px 0px 0px;
-    border-radius: 5px;
-    color: white;
-}
-*/
-
-@font-face {
-  font-family: 'White Elephant';
-  src: url('/fonts/White Elephant.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/White Elephant.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/White Elephant.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/White Elephant.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/fonts/White Elephant.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/fonts/White Elephant.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
-
-@font-face {
-  font-family: 'GenomeThin';
-  src: url('/fonts/Genome-Thin.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/Genome-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/Genome-Thin.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/Genome-Thin.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/fonts/Genome-Thin.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/fonts/Genome-Thin.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
 
 .background {
     background-color: #cecbb7;
 }
 
-.navbar {
-    font-size: 30px;
-    font-family: 'White Elephant', Fallback, Impact;
-}
-
-.navbar-brand {
-    font-size: 35px;
-}
-
 #banner {
-    padding: 0px 0px 0px 0px;
-
+    padding: 0px;
+    width: 800px;
+    margin: 0 auto;
 }
 
 #main { 
-    margin: 0px;
     font-family: impact;
+}
+.wrapper {
+    margin: 0 auto;
     padding: 0px;
+    width: 800px;
+    position: relative;
+}
+.writeup {
+    width: 400px;
+    margin: 0px;
+    position: absolute;
 }
 
-.writeup {
-    padding: 0px 0px 0px 0px;
+.updates {
+    font-family:'GenomeThin';
+    background-color: #afafaf;
+    width: 200px;
     margin: 0px;
+    position: absolute;
+    right: 5px;
 }
 
 .headers {
@@ -71,19 +41,31 @@
 }
 
 #footer {
-    text-align: center;
     background-color: #75c2c4;
-    font-size: 18px;
+    font-size: 15px;
     font-family: 'White Elephant', Fallback, Impact;
-}
-
-.updates {
-    font-family:'GenomeThin';
-    background-color: #afafaf;
-}
+    clear: both;
+    position: absolute;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
 
 .update-headers {
     font-weight: bold;
+}
+
+
+/* clear fix */
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
 
 /*
