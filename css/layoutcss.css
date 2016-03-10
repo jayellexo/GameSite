@@ -28,23 +28,6 @@
     width: 800px;
     margin: auto;
 }
-#navbar {
-    background: #123655;
-    margin: 5px 0;
-    padding: 5px;
-    text-align: center;
-
-}
-#navbar ul li {
-    list-style-type: none;
-    display: inline;
-    padding: 5px;
-    font: 30px "White Elephant", Impact;
-    color: aliceblue;
-}
-#main { 
-    font-family: impact;
-}
 .wrapper {
     margin: 0 auto;
     padding: 0px;
@@ -57,6 +40,13 @@
     background-color: #f2f0e3;
     float:left;
 }
+.writeup p {
+    padding: 0 20px;
+}
+
+.updates ul li {
+    list-style-type: none;
+}
 
 .updates {
     font-family:'GenomeThin';
@@ -67,12 +57,48 @@
     right: 5px;
 }
 
+.update-title{
+    font: bold 15px monospace;
+
+}
+
+.update-date{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font: bold, underline 15px monospace;
+
+}
+
 .headers {
     font-size: 35px;
     font-weight: 600;
     text-align: center;
     font-family: 'White Elephant', Fallback, Impact;
+    padding: 15px 0 0 0;
 }
+
+#navbar {
+    background: #123655;
+    margin: -10px;
+    padding: 5px;
+    text-align: center;
+    z-index: auto;
+    z-index: 0px;
+}
+
+#navbar ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 5px;
+    font: 30px "White Elephant", Impact;
+    color: aliceblue;
+}
+
+#main { 
+    font-family: impact;
+}
+
 
 #footer {
     background-color: #5f0e1e;
