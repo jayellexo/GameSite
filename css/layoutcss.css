@@ -85,6 +85,8 @@
     text-align: center;
     z-index: auto;
     z-index: 0px;
+    position: absolute;
+    width: 805px;
 }
 
 #navbar ul li {
