@@ -1,25 +1,22 @@
-
 @font-face {
-  font-family: 'White Elephant';
-  src: url('/fonts/White Elephant.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/White Elephant.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/White Elephant.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/White Elephant.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/fonts/White Elephant.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/fonts/White Elephant.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-family: 'white_elephantregular';
+    src: url('white_elephant-webfont.eot');
+    src: url('white_elephant-webfont.eot?#iefix') format('embedded-opentype'),
+         url('white_elephant-webfont.woff2') format('woff2'),
+         url('white_elephant-webfont.woff') format('woff'),
+         url('white_elephant-webfont.ttf') format('truetype'),
+         url('white_elephant-webfont.svg#white_elephantregular') format('svg');
 }
 
 @font-face {
-  font-family: 'GenomeThin';
-  src: url('/fonts/Genome-Thin.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/Genome-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/Genome-Thin.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/Genome-Thin.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/fonts/Genome-Thin.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/fonts/Genome-Thin.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-family: 'genomethin';
+    src: url('genome-thin-webfont.eot');
+    src: url('genome-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('genome-thin-webfont.woff2') format('woff2'),
+         url('genome-thin-webfont.woff') format('woff'),
+         url('genome-thin-webfont.ttf') format('truetype'),
+         url('genome-thin-webfont.svg#genomethin') format('svg');
 }
-
-
 
 * {
     font-size: 22px;
@@ -58,7 +55,7 @@
 }
 
 .updates {
-    font-family:'GenomeThin';
+    font-family:'genomethin';
     width: 400px;
     margin-bottom: 5px;
     float:right;
@@ -82,7 +79,7 @@
     font-size: 50px;
     font-weight: 600;
     text-align: center;
-    font-family: 'White Elephant', Fallback, Impact;
+    font-family: 'white_elephantregular', Fallback, Impact;
     padding: 15px 0 0 0;
 }
 
@@ -94,7 +91,7 @@
     list-style-type: none;
     display: inline;
     padding: 0 30px;
-    font: 55px "White Elephant", Impact;
+    font: 55px 'white_elephantregular', Impact;
     color: #5f0e1e;
 }
 
@@ -102,11 +99,10 @@
     font-family: impact;
 }
 
-
 #footer {
     font-size: 25px;
     color: #262729;
-    font-family: 'White Elephant', Fallback, Impact;
+    font-family: 'genomethin', Fallback, Impact;
     clear: both;
     text-align:center;
     border-bottom: solid 1px;
@@ -120,7 +116,6 @@
 .update-headers {
     font-weight: bold;
 }
-
 
 /* clear fix */
 .group:before,
